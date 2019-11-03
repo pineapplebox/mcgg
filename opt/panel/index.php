@@ -35,7 +35,7 @@ if (!empty($_SESSION['user']) && $user = user_info($_SESSION['user'])) {
 </head>
 <body>
 <noscript>
-	<p class="alert alert-warning"><strong>Enable Javascript:</strong> Javascript is required to use MCGG.</p>
+	<p class="alert alert-warning"><strong>Enable Javascript:</strong> Javascript is required to use MCHostPanel.</p>
 </noscript>
 <form class="modal form-horizontal" action="dashboard.php" method="post">
 	<div class="modal-header" align="center">
